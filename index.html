@@ -1,14 +1,13 @@
 ---
-layout: archive
-author_profile: true
+layout: splash
+header:
+  overlay_color: "#222"
+  overlay_filter: "0.2"
+excerpt: Vajad mobiilset valgusmasti? Lao- või tootmishoonet? Tõeliselt soojapidavat soojakut? Võta ühendust!
+author_profile: false
 ---
 
-{% include base_path %}
-
-<h3 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_posts | default: "Recent Posts" }}</h3>
-
-{% for post in paginator.posts %}
-  {% include archive-single.html %}
-{% endfor %}
-
-{% include paginator.html %}
+<ul class="social-icons" style="list-style: none;">
+	<li><i class="fa fa-fw fa-phone" aria-hidden="true"></i> (+372) 5112294 </li>
+	<li><a href="mailto:baurem@gmail.com"><i class="fa fa-fw fa-envelope-square" aria-hidden="true"></i> baurem@gmail.com </a></li>
+</ul>
